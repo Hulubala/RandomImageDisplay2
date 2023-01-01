@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RandomImgGen</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rock+Salt"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"/>
+        
+        <style>
+            h3{
+                color: #123875;
+                font-family: "Lobster", handwriting;
+                font-size: 100px;
+            }
+            
+            h1{
+                color: #996633;
+                font-family: "Rock Salt", handwriting;
+                margin-bottom: 0px;
+                font-size: 200px;
+            }
+            
+            p{
+                color: #261a0d;
+                font-family: "Sofia", sans-serif;
+                font-size: 80px;
+            }
+            
+            container{
+                background-color: #e6ccb3;
+            }
+
+        </style>
+    </head>
+    
+    <body>
+        <div id="mainlayout" align= "center">
+            <div id="container"> 
+                <div id="header">                   
+                    <h1>Happy New Year!</h1>
+                </div>
+                
+                <div id="content">
+                    <script type="text/javascript"> 
+                        var img = new Array();
+                        img[0] = 'https://c.ndtvimg.com/2021-12/p3guaojo_happy-new-year-2022-new-year-images_625x300_31_December_21.jpg?im=FaceCrop,algorithm=dnn,width=345,height=250?im=Resize=(80,60)'
+                        img[1] = 'https://images.hindustantimes.com/img/2022/12/31/1600x900/happy_new_year_funny_wishes_1672465874850_1672465885605_1672465885605.jpg'
+                        img[2] = 'https://img.freepik.com/free-photo/new-year-banner-with-fireworks_23-2149539970.jpg?w=2000'
+                        img[3] = 'https://parade.com/.image/t_share/MTkzNzk5NDEyNzA1NjY2NTQ0/happy-new-year-2023.jpg'
+                        img[4] = 'https://www.wishesmsg.com/wp-content/uploads/New-Year-Wishes-to-Family.jpg'
+                    
+                        var j = 0;
+                        var p = img.length;
+                        var preBuffer = new Array();
+                        for (i=0; i<p; i++){
+                            preBuffer[i] = new Image();
+                            preBuffer[i].src = img[i];
+                        }
+                    
+                        var randomImg = Math.round(Math.random()*(p-1));
+                        function showImage(){
+                            document.write('<img border= "0" src="'+img[randomImg]+'" height= "80%" width ="80%"/>');
+                        }
+                </script>
+                <table border="0" cellpadding="2" cellspacing="1" align="center">
+                    <tr>
+                        <td align="center" colspan="2" rowspan="1">
+                            <script type="text/javascript">
+                                showImage();
+                            </script>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2" rowspan="1">
+                            <h3><b>Wish You A Happy New Year!</b> </h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="end" colspan="2" rowspan="1">
+                            <p><b>From: Dennis</b></p> 
+                        </td>
+                    </tr>
+                </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
