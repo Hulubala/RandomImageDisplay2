@@ -64,6 +64,7 @@ container{
   margin-top: 50px;
   border: 0;
   image-rendering: -webkit-optimize-contrast;
+  object-fit: contain;
 }
 
 .btn{
