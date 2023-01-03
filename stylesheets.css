@@ -34,11 +34,11 @@ container{
 .btn{
   padding: 30px 30px;
   background: #ffffb3;
-  border-style: 1em;
-  outline: 0em;
+  border-style: 0em;
+  outline: 1em;
   cursor: pointer;
-  font-size: 50px;
-  font-weight: 800;
+  font-size: 80px;
+  font-weight: 1000;
   border-radius: 50%;
   color: #800000;
 }
