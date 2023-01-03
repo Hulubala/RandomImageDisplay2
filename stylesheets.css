@@ -40,5 +40,6 @@ container{
   font-size: 80px;
   font-weight: 900;
   border-radius: 50%;
+  border-width: medium;
   color: #800000;
 }
