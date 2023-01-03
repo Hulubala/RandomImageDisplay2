@@ -60,6 +60,12 @@ container{
   box-shadow: 0 5px 5px;
 }
 
+.popup img{
+  width: 100px;
+  margin-top: 50px;
+  border: 0;
+}
+
 .btn{
   padding: 30px 30px;
   background: #ffffb3;
