@@ -35,10 +35,10 @@ container{
   padding: 30px 30px;
   background: #ffffb3;
   border-style: 0em;
-  outline: 1em;
+  outline: 0em;
   cursor: pointer;
   font-size: 80px;
-  font-weight: 1000;
+  font-weight: 900;
   border-radius: 50%;
   color: #800000;
 }
