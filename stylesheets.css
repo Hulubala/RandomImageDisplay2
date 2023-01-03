@@ -37,7 +37,8 @@ container{
   background: blue;
   position: absolute;
   top: 50%;
-  transform: translate(-50%) scale(0.1);
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
   text-align: center; 
   visibility: hidden;
   transition: transform 0.4s, center 0.4s;
@@ -46,7 +47,7 @@ container{
 .open-pop{
   visibility: visible;
   top: 50%;
-  transform: translate(-50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .popup button{
