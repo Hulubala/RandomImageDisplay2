@@ -35,7 +35,7 @@ container{
   padding: 30px 30px;
   background: #ffffb3;
   border: 0;
-  outline: none;
+  outline: 1em;
   cursor: pointer;
   font-size: 80px;
   font-weight: 900;
