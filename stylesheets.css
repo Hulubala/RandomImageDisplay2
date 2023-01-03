@@ -34,8 +34,8 @@ container{
 .btn{
   padding: 30px 30px;
   background: #ffffb3;
-  border: 0;
-  outline: 1em;
+  border: 1em;
+  outline: none;
   cursor: pointer;
   font-size: 80px;
   font-weight: 900;
