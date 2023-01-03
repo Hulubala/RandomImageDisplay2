@@ -63,6 +63,7 @@ container{
 .popup img{
   margin-top: 50px;
   border: 0;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .btn{
