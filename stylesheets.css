@@ -32,13 +32,13 @@ container{
 }
 
 .btn{
-  padding: 50px 50px;
+  padding: 30px 30px;
   background: #ffffb3;
   border-style: double 1em;
-  outline: 3em;
+  outline: 0em;
   cursor: pointer;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 800;
   border-radius: 50%;
   color: #800000;
 }
