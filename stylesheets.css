@@ -61,7 +61,8 @@ container{
   border-radius: 50%;
   border: 1px solid white;
   color: white;
-  background-color: lightslategrey;
+  background-color: (119, 136, 153);
+  opacity: 0.2;
 }
 
 .popup img{
