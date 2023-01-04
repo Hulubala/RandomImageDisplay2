@@ -32,7 +32,7 @@ container{
 }
 
 bgVid{
-  position: fixed;
+  position: absolute;
   right: 0;
   bottom: 0;
   min-width: 100%;
@@ -82,8 +82,7 @@ bgVid{
   
 }
 
-.btn{
-  position: absolute;
+.btn{  
   padding: 30px 30px;
   background: #ffffb3;
   border-style: dashed;
