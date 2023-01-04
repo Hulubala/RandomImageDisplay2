@@ -35,7 +35,7 @@ bgVid{
   position: absolute;
   right: 0;
   bottom: 0;
-  min-width: 100%;
+  min-width: 100vh;
   min-height: 100vh;
 }
 
@@ -97,7 +97,7 @@ bgVid{
 }
 
 @media only screen and (max-width:600px){
-  .popup img, .open-pop{
+  .popup img, .open-pop, bgVid{
     width: 100%;
   }
 }
