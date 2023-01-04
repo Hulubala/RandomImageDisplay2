@@ -31,7 +31,7 @@
                     var randomImg = Math.round(Math.random()*(p-1));
                     function showImage(){
                         document.write('<img border= "0" src="'+img[randomImg]+'"/>');
-                  }
+                    }
             
                     let pop = document.getElementById("popup");
                     function openPop(){
@@ -40,13 +40,13 @@
                     function closePop(){
                         popup.classList.remove("open-pop");
                     }
-            </script>
+                </script>
                 
                 <div id="content">                                                                                                    
                     <button type="submit" class="btn" onclick="openPop()">開</button>
-                </div>
+                </div>                                                  
                 
-                
+                <div id="popup" class="popup">
                     <table border="0" cellpadding="2" cellspacing="1" align="center">
                         <tr>
                             <td align="center" colspan="2" rowspan="1">
@@ -69,8 +69,8 @@
                             </td>
                         </tr>
                     </table>
-                    
-               
+                </div>
+                                   
             </div>
         </div>                
         
