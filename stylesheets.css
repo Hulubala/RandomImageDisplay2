@@ -24,9 +24,9 @@ p{
             
 container{
   background-color: #e6ccb3;
-  width: 100%;
+  width: 100vh;
   height: 100vh;
-  display: flex;
+  display: contents;
   align-items: center;
   justify-content: center; 
 }
