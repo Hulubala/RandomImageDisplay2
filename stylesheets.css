@@ -67,7 +67,6 @@ container{
   object-fit: contain;
   max-width: 100%;
   height: auto;
-  clip-path: inset(10px 20px 10px 20px);
 }
 
 .btn{
