@@ -31,6 +31,14 @@ container{
   justify-content: center; 
 }
 
+bgVid{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .popup{
   width: 100%;
   height: 100vh;
@@ -86,6 +94,7 @@ container{
   border-width: 2px;
   border-color: saddlebrown;
   color: #800000;
+  box-shadow: 0 5px 5px;
 }
 
 @media only screen and (max-width:600px){
