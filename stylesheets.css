@@ -65,6 +65,8 @@ container{
   border: 0;
   image-rendering: -webkit-optimize-contrast;
   object-fit: contain;
+  max-width: 100%;
+  height: auto;
 }
 
 .btn{
