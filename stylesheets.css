@@ -82,3 +82,9 @@ container{
   border-color: saddlebrown;
   color: #800000;
 }
+
+@media only screen and (max-width:600px){
+  .popup img, .open-pop{
+    width: 100%;
+  }
+}
