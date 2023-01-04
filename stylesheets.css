@@ -42,6 +42,7 @@ container{
   text-align: center; 
   visibility: hidden;
   transition: transform 0.4s, center 0.4s;
+  overflow: hidden;
 }
 
 .open-pop{
@@ -67,6 +68,8 @@ container{
   object-fit: cover;
   max-width: 100%;
   height: auto;
+  margin: -20px -30px -30px -30px;
+  
 }
 
 .btn{
