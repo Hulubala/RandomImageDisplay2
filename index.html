@@ -12,7 +12,36 @@
     
     <body>
         <div id="mainlayout" align= "center">
-            <div id="container">                                 
+            <div id="container">
+                <script type="text/javascript"> 
+                   var img = new Array();
+                    img[0] = 'http://drive.google.com/uc?export=view&id=1Xl6YRKeB3Ml01Q1jN0zQsLINKXXZcRkA'                        
+                    img[1] = 'http://drive.google.com/uc?export=view&id=1CB-Q3Sf3RMoGyz_UVdKMTYcWjJohw2zz'
+                    img[2] = 'http://drive.google.com/uc?export=view&id=1GEqySXVieykhRJd6ApybPvqhwNnzVCTV'
+                    img[3] = 'http://drive.google.com/uc?export=view&id=1rjIzluOugQmtcIOFjbkHmLprwsnOcspw'
+                            
+                    var i;
+                    var p = img.length;
+                    var preBuffer = new Array();
+                    for (i=0; i<p; i++){
+                        preBuffer[i] = new Image();
+                        preBuffer[i].src = img[i];
+                    }
+                    
+                    var randomImg = Math.round(Math.random()*(p-1));
+                    function showImage(){
+                        document.write('<img border= "0" src="'+img[randomImg]+'"/>');
+                  }
+            
+                    let pop = document.getElementById("popup");
+                    function openPop(){
+                        popup.classList.add("open-pop");
+                    }
+                    function closePop(){
+                        popup.classList.remove("open-pop");
+                    }
+            </script>
+                
                 <div id="content">                                                                                                    
                     <button type="submit" class="btn" onclick="openPop()">開</button>
                 </div>
@@ -43,36 +72,7 @@
                     
                
             </div>
-        </div>
-        
-        <script type="text/javascript"> 
-            var img = new Array();
-            img[0] = 'http://drive.google.com/uc?export=view&id=1Xl6YRKeB3Ml01Q1jN0zQsLINKXXZcRkA'                        
-            img[1] = 'http://drive.google.com/uc?export=view&id=1CB-Q3Sf3RMoGyz_UVdKMTYcWjJohw2zz'
-            img[2] = 'http://drive.google.com/uc?export=view&id=1GEqySXVieykhRJd6ApybPvqhwNnzVCTV'
-            img[3] = 'http://drive.google.com/uc?export=view&id=1rjIzluOugQmtcIOFjbkHmLprwsnOcspw'
-                            
-            var i;
-            var p = img.length;
-            var preBuffer = new Array();
-            for (i=0; i<p; i++){
-                preBuffer[i] = new Image();
-                preBuffer[i].src = img[i];
-            }
-                    
-            var randomImg = Math.round(Math.random()*(p-1));
-            function showImage(){
-                document.write('<img border= "0" src="'+img[randomImg]+'"/>');
-            }
-            
-            let pop = document.getElementById("popup");
-            function openPop(){
-                popup.classList.add("open-pop");
-            }
-            function closePop(){
-                popup.classList.remove("open-pop");
-            }
-        </script>
+        </div>                
         
     </body>
 </html>
