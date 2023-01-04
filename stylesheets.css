@@ -59,6 +59,9 @@ container{
   outline: none;
   cursor: pointer;
   box-shadow: 0 5px 5px;
+  border-radius: 50%;
+  border: 2px solid white;
+  color: white;
 }
 
 .popup img{
@@ -83,16 +86,6 @@ container{
   border-width: 2px;
   border-color: saddlebrown;
   color: #800000;
-}
-
-.close{
-  border-radius: 50%;
-  padding: 0.5em;
-  position: absolute;
-  display: block;
-  height: 30px;
-  border: 2px solid white;
-  color: transparent;
 }
 
 @media only screen and (max-width:600px){
