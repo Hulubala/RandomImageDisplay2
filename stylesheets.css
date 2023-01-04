@@ -65,8 +65,9 @@ container{
   border: 0;
   image-rendering: -webkit-optimize-contrast;
   object-fit: contain;
-  max-width: 100%;
+  max-width: 150%;
   height: auto;
+  clip-path: inset(10px 20px 10px 20px);
 }
 
 .btn{
