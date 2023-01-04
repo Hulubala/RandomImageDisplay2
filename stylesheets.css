@@ -29,6 +29,7 @@ container{
   display: contents;
   align-items: center;
   justify-content: center; 
+  position: fixed;
 }
 
 bgVid{
