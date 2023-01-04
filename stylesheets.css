@@ -25,15 +25,18 @@ p{
 container{
   background-color: #e6ccb3;
   width: 100vh;
-  height: 100vh;
-  background-image: url('http://drive.google.com/uc?export=view&id=1ec3e1PNW4MMDaCk3PtkWYXnUCRukoZp5');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: contain; 
+  height: 100vh; 
   display: flex;
   align-items: center;
   justify-content: center; 
   position: fixed;
+}
+
+body{
+  background-image: url('http://drive.google.com/uc?export=view&id=1ec3e1PNW4MMDaCk3PtkWYXnUCRukoZp5');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain; 
 }
 
 .popup{
