@@ -59,8 +59,7 @@ bgVid{
   transform: translate(-50%, -50%) scale(1);
 }
 
-.popup button{
- 
+.popup button{ 
   padding: 5px 5px;
   border: 0;
   outline: none;
@@ -84,6 +83,7 @@ bgVid{
 }
 
 .btn{
+  position: absolute;
   padding: 30px 30px;
   background: #ffffb3;
   border-style: dashed;
