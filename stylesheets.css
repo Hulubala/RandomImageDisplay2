@@ -24,7 +24,7 @@ p{
             
 container{
   background-color: #e6ccb3;
-  width: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center; 
@@ -38,13 +38,13 @@ body{
   background-position: right center fixed;
   background-size: cover; 
   position: relative;
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 
 .popup{
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-image: url('http://drive.google.com/uc?export=view&id=1qjT08XHkJ8WNVlyn4ldrk5mmeoBOhHGQ'); 
   background-repeat: no-repeat;
   background-position: center center fixed;
