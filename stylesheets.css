@@ -81,7 +81,7 @@ body{
 }
 
 .popup img{
-  margin-top: 200%;
+  margin-top: 20%;
   border: 0;
   image-rendering: -webkit-optimize-contrast;
   object-fit: cover;
