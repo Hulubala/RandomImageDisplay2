@@ -35,7 +35,7 @@ body{
   background-image: url('http://drive.google.com/uc?export=view&id=1zO3BVLcC6MQ40qLhdOyfNk9hsv1eytJl');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center right fixed;
+  background-position: right center fixed;
   background-size: cover; 
   position: relative;
   height: 100%;
@@ -51,6 +51,8 @@ body{
   background-attachment: fixed;
   background-size: cover;
   position: absolute;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%) scale(0.1);
   text-align: center; 
   visibility: hidden;
