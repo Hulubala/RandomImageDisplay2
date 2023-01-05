@@ -81,8 +81,8 @@ body{
   border: 0;
   image-rendering: -webkit-optimize-contrast;
   object-fit: cover;
-  max-width: 100%;
-  height: auto;
+  max-width: 60%;
+  height: 60%;
   margin: -20px -30px -30px -30px;
   
 }
