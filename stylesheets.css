@@ -39,8 +39,8 @@ body{
   background-position: center;
   background-size: fill; 
   position: relative;
-  height: 1000px;
-  width: 600px;
+  height: 100vh;
+  width: 100%;
   clip-path: inset(0px 100px 80px 60px);
 }
 
