@@ -77,12 +77,12 @@ body{
 }
 
 .popup img{
-  margin-top: 30px;
+  margin-top: 40vh;
   border: 0;
   image-rendering: -webkit-optimize-contrast;
   object-fit: cover;
-  max-width: 60%;
-  height: 60%;
+  max-width: 70%;
+  height: 67%;
   margin: -20px -30px -30px -30px;
   
 }
