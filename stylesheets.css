@@ -33,27 +33,24 @@ container{
 }
 
 body{
-  background-image: url('http://drive.google.com/uc?export=view&id=1-JyOqiQZddMO3wQx_Wp8ByWXVKAVfv95');
+  background-image: url('http://drive.google.com/uc?export=view&id=1zO3BVLcC6MQ40qLhdOyfNk9hsv1eytJl');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center right;
   background-size: cover; 
   position: relative;
   height: 100vh;
-  width: 100%;
+  width: 100vh;
 }
 
 .popup{
-  width: 100%;
+  width: 100vh;
   height: 100vh;
   background-image: url('http://drive.google.com/uc?export=view&id=1qjT08XHkJ8WNVlyn4ldrk5mmeoBOhHGQ'); 
   background-repeat: no-repeat;
   background-position: center center fixed;
   background-attachment: fixed;
   background-size: cover;
-  -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover; 
   position: absolute;
   top: 50%;
   left: 50%;
