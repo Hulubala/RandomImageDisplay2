@@ -89,7 +89,7 @@ body{
 }
 
 .btn{
-  top: 50%;
+  margin-top: 50vh;
   position: center absolute;
   padding: 10px 10px;
   background: #ffffb3;
