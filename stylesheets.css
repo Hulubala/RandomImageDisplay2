@@ -28,7 +28,6 @@ container{
   display: flex;
   align-items: center;
   justify-content: center; 
-  position: fixed;
 }
 
 body{
@@ -90,8 +89,9 @@ body{
 }
 
 .btn{
-  margin-top: 50%;
-  position: center center fixed;
+  top: 50%;
+  left: 50%;
+  position: absolute;
   padding: 20px 20px;
   background: #ffffb3;
   border-style: dashed;
