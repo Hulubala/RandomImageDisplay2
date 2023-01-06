@@ -8,13 +8,7 @@ h3{
   color: yellow;
   font-family: "Lobster", handwriting;
   font-size: 6vw;
-}
-            
-h1{
-  color: #996633;
-  font-family: "Rock Salt", handwriting;
-  font-size: 10vw;
-}
+}           
             
 p{
   color: #261a0d;
@@ -65,7 +59,8 @@ body{
   transform: translate(-50%, -50%) scale(1);
 }
 
-.popup button{ 
+.popup button{
+  margin-top: 3vh;
   padding: 5px 5px;
   border: 0;
   outline: none;
@@ -82,8 +77,8 @@ body{
   border: 0;
   image-rendering: -webkit-optimize-contrast;
   object-fit: cover;
-  max-width: 80%;
-  height: 80%;
+  max-width: 80vh;
+  height: 80vh;
   clip-path: inset(10px 20px 20px 30px);
   
 }
