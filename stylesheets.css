@@ -23,7 +23,6 @@ p{
 }
             
 container{
-  background-color: #e6ccb3;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -92,6 +91,7 @@ body{
 
 .btn{
   margin-top: 50%;
+  position: center center fixed;
   padding: 20px 20px;
   background: #ffffb3;
   border-style: dashed;
