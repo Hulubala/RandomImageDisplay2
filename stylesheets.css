@@ -89,7 +89,8 @@ body{
 }
 
 .btn{
-  position: center center absolute;
+  top: 50%;
+  position: center absolute;
   padding: 10px 10px;
   background: #ffffb3;
   border-style: dashed;
