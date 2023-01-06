@@ -111,7 +111,7 @@ body{
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
     transition: opacity 0.25s;  
-    opacity: 0.9; 
+    opacity: 0.6; 
   }
 
   25% {
@@ -129,10 +129,10 @@ body{
   }
 
   100% {
-    -webkit-transform: scale(0.7);
-    transform: scale(0.7);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
     transition: opacity 0.5s;  
-    opacity: 0.9;
+    opacity: 0.6;
   }
 }
 
@@ -141,24 +141,32 @@ body{
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
+    transition: opacity 0.5s;  
+    opacity: 0.6;
   }
 
   25% {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
+    transition: opacity 0.5s;  
+    opacity: 1;
   }
 
   60% {
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
+    transition: opacity 0.5s;  
+    opacity: 1;
   }
 
   100% {
-    -webkit-transform: scale(0.7);
-    -ms-transform: scale(0.7);
-    transform: scale(0.7);
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: opacity 0.5s;  
+    opacity: 0.6;
   }
 }
 
