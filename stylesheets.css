@@ -89,7 +89,7 @@ body{
 }
 
 .btn{
-  margin-top: 30vh;
+  margin-top: 35vh;
   position: center absolute;
   padding: 10px 10px;
   background: #ffffb3;
@@ -110,21 +110,29 @@ body{
   0% {
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
+    transition: opacity 0.25s;  
+    opacity: 0.9; 
   }
 
   25% {
     -webkit-transform: scale(1);
     transform: scale(1);
+    transition: opacity 0.5s;  
+    opacity: 1; 
   }
 
   60% {
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
+    transition: opacity 0.5s;  
+    opacity: 1;
   }
 
   100% {
     -webkit-transform: scale(0.7);
     transform: scale(0.7);
+    transition: opacity 0.5s;  
+    opacity: 0.9;
   }
 }
 
