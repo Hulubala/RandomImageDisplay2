@@ -76,7 +76,7 @@ body{
 .popup img{
   margin-top: 10vh;
   border: 0;
-  position: center absolute;
+  position: center center absolute;
   image-rendering: -webkit-optimize-contrast;
   object-fit: cover;
   max-width: 60vh;
