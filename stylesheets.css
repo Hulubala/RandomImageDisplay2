@@ -74,7 +74,8 @@ body{
 }
 
 .popup img{
-  margin-top: 10vh; 
+  margin-top: 10vh;
+  margin-left: 5vh;
   border: 0;
   position: center center absolute;
   image-rendering: -webkit-optimize-contrast;
