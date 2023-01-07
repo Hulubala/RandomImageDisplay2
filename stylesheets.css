@@ -73,10 +73,11 @@ body{
   background-color: rgba(119, 136, 153, 20%);
 }
 
-.popup img{
+.popup img{  
+  margin: auto;
   margin-top: 10vh;
   border: 0;
-  position: center center absolute;
+  position: center absolute;
   image-rendering: -webkit-optimize-contrast;
   object-fit: cover;
   max-width: 60vh;
