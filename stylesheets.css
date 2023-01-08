@@ -80,7 +80,7 @@ body{
   position: center flex;
   image-rendering: -webkit-optimize-contrast;
   object-fit: cover;
-  max-width: 60vh;
+  max-width: 60vw;
   height: 60vh;  
 }
 
