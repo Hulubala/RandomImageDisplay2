@@ -75,13 +75,14 @@ body{
 
 .popup img{  
   margin-top: 10vh;
-  margin-left: 18vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   border: 0;
   position: center flex;
   image-rendering: -webkit-optimize-contrast;
   object-fit: cover;
-  max-width: 60vw;
-  height: 60vh;  
+  max-width: 65vw;
+  height: 65vh;  
 }
 
 .btn{
