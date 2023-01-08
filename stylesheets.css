@@ -33,11 +33,11 @@ body{
   background-size: cover; 
   position: relative;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
 }
 
 .popup{
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: url('http://drive.google.com/uc?export=view&id=1qjT08XHkJ8WNVlyn4ldrk5mmeoBOhHGQ'); 
   background-repeat: no-repeat;
