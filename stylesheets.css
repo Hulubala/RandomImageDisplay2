@@ -44,10 +44,9 @@ body{
   background-attachment: fixed;
   background-size: cover;
   position: center center absolute;
-  top: 50vh;
+  top: 40vh;
   left: 50vw;
   right: 50vw;
-  bottom: 50vh;
   transform: translate(0, -50vh) scale(0.1);
   text-align: center; 
   transition: transform 0.4s, center 0.4s;
