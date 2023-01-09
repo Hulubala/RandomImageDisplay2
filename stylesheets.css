@@ -47,9 +47,9 @@ body{
   position: absolute;
   top: 50vh;
   left: 50vw;
+  right: 50vw;
   transform: translate(-50%, -50%) scale(0.1);
   text-align: center; 
-  visibility: hidden;
   transition: transform 0.4s, center 0.4s;
   overflow: hidden;
 }
