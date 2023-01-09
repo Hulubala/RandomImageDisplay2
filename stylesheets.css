@@ -42,7 +42,10 @@ body{
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  position: top center fixed;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  right: 50vw;
   transform: scale(0.1);
   text-align: center; 
   transition: transform 0.4s, center 0.4s;
