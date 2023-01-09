@@ -42,7 +42,7 @@ body{
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  position: center absolute;
+  position: absolute;
   top: 50vh;
   left: 50vw;
   right: 50vw;
