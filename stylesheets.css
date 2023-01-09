@@ -49,7 +49,7 @@ body{
   left: 50vw;
   transform: translate(-50%, -50%) scale(0.1);
   text-align: center; 
-  visibility: hidden;
+  visibility: visible;
   transition: transform 0.4s, center 0.4s;
   overflow: hidden;
 }
