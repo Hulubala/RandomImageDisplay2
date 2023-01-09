@@ -42,7 +42,7 @@ body{
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  position: center center fixed;
+  position: top center fixed;
   transform: scale(0.1);
   text-align: center; 
   transition: transform 0.4s, center 0.4s;
