@@ -26,7 +26,7 @@ container{
 }
 
 body{
-  
+  background-image: url('http://drive.google.com/uc?export=view&id=1zO3BVLcC6MQ40qLhdOyfNk9hsv1eytJl');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -46,6 +46,7 @@ body{
   top: 50vh;
   left: 50vw;
   right: 50vw;
+  bottom: 10vh;
   transform: translate(0, -50%) scale(0.1);
   text-align: center; 
   transition: transform 0.4s, center 0.4s;
