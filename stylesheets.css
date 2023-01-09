@@ -43,7 +43,7 @@ body{
   background-attachment: fixed;
   background-size: cover;
   position: relative;  
-  transform: translate(0vw, -50vh) scale(0.1);
+  transform: translate(50vw, -50vh) scale(0.1);
   text-align: center; 
   transition: transform 0.4s, center 0.4s;
   overflow: hidden;
@@ -53,7 +53,7 @@ body{
 
 .open-pop{
   visibility: visible;
-  transform: translate(0vw, -50vh) scale(1);
+  transform: translate(50vw, -50vh) scale(1);
 }
 
 .popup button{
