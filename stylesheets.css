@@ -44,18 +44,19 @@ body{
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  position: center center absolute;
+  position: center center flex;
   left: 50vw;
   right: 50vw;
-  transform: translate(0, -10vh) scale(0.1);
+  transform: translate(0, -50vh) scale(0.1);
   text-align: center; 
   transition: transform 0.4s, center 0.4s;  
   visibility: hidden;
+  overflow: hidden;
 }
 
 .open-pop{
   visibility: visible;
-  transform: translate(0, -10vh) scale(1);
+  transform: translate(0, -50vh) scale(1);
 }
 
 .popup button{
