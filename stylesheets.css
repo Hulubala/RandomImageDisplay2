@@ -42,10 +42,7 @@ body{
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  position: absolute;
-  top: 50vh;
-  left: 50vw;
-  right: 50vw;
+  position: relative;  
   transform: translate(-50vw, -50vh) scale(0.1);
   text-align: center; 
   transition: transform 0.4s, center 0.4s;
@@ -56,7 +53,6 @@ body{
 
 .open-pop{
   visibility: visible;
-  top: 50vh;
   transform: translate(-50vw, -50vh) scale(1);
 }
 
