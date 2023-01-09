@@ -43,7 +43,9 @@ body{
   background-attachment: fixed;
   background-size: cover;
   position: absolute;
-  
+  margin-top: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
   transform: scale(0.1);
   text-align: center; 
   transition: transform 0.4s, center 0.4s;
