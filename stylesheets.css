@@ -50,8 +50,8 @@ body{
   transform: translate(0, -50%) scale(0.1);
   text-align: center; 
   transition: transform 0.4s, center 0.4s;  
-  visibility: hidden;
-  //overflow: hidden;
+  //visibility: hidden;
+  overflow: hidden;
 }
 
 .open-pop{
