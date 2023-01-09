@@ -45,7 +45,7 @@ body{
   background-attachment: fixed;
   background-size: cover;
   position: absolute;
-  transform: translate(-50%, -50%) scale(0.1);
+  transform: scale(0.1);
   text-align: center; 
   visibility: visible;
   transition: transform 0.4s, center 0.4s;
@@ -54,7 +54,7 @@ body{
 
 .open-pop{
   visibility: visible;
-  transform: translate(-50%, -50%) scale(1);
+  transform: scale(1);
 }
 
 .popup button{
