@@ -26,7 +26,7 @@ container{
 }
 
 body{
-  background-image: url('http://drive.google.com/uc?export=view&id=1zO3BVLcC6MQ40qLhdOyfNk9hsv1eytJl');
+  
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -34,7 +34,6 @@ body{
   position: relative;
   height: 100vh;
   width: 100vw;
-  visibility: hidden;
 }
 
 .popup{
