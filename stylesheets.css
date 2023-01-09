@@ -46,7 +46,7 @@ body{
   top: 50vh;
   left: 50vw;
   right: 50vw;
-  transform: scale(0.1);
+  transform: translate(0, -50%) scale(0.1);
   text-align: center; 
   transition: transform 0.4s, center 0.4s;
   overflow: hidden;
@@ -56,7 +56,7 @@ body{
 
 .open-pop{
   visibility: visible;
-  transform: scale(1);
+  transform: translate(0, -50%) scale(1);
 }
 
 .popup button{
