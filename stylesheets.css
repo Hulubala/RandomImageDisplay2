@@ -54,8 +54,6 @@ body{
 
 .open-pop{
   visibility: visible;
-  top: 50vh;
-  left: 50vw;
   transform: translate(-50%, -50%) scale(1);
 }
 
