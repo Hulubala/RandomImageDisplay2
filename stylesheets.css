@@ -47,7 +47,7 @@ body{
   position: absolute;
   transform: scale(0.1);
   text-align: center; 
-  visibility: visible;
+  visibility: hidden;
   transition: transform 0.4s, center 0.4s;
   overflow: hidden;
 }
