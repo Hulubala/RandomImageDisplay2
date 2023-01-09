@@ -51,7 +51,7 @@ body{
   text-align: center; 
   transition: transform 0.4s, center 0.4s;  
   visibility: hidden;
-  overflow: hidden;
+  //overflow: hidden;
 }
 
 .open-pop{
