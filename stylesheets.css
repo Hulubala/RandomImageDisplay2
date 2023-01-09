@@ -47,7 +47,8 @@ body{
   position: center center flex;
   left: 50vw;
   right: 50vw;
-  transform: translate(0, -50%) scale(0.1);
+  top: 50vh;
+  transform: translate(0, -50vh) scale(0.1);
   text-align: center; 
   transition: transform 0.4s, center 0.4s;  
   //visibility: hidden;
