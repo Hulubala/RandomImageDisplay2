@@ -44,7 +44,7 @@ body{
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  position: center center flex;
+  position: center center absolute;
   left: 50vw;
   right: 50vw;
   top: 50vh;
