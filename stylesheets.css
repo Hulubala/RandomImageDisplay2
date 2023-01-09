@@ -39,19 +39,19 @@ body{
 .popup{
   width: 100vw;
   height: 100vh;
-  background-image: url('http://drive.google.com/uc?export=view&id=1qjT08XHkJ8WNVlyn4ldrk5mmeoBOhHGQ');  
+  background-image: url('http://drive.google.com/uc?export=view&id=1qjT08XHkJ8WNVlyn4ldrk5mmeoBOhHGQ'); 
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  position: center center absolute;
-  left: 50vw;
-  right: 50vw;
+  position: absolute;
   top: 50vh;
-  transform: translate(0, -50vh) scale(0.1);
+  right: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%) scale(0.1);
   text-align: center; 
-  transition: transform 0.4s, center 0.4s;  
-  //visibility: hidden;
+  visibility: hidden;
+  transition: transform 0.4s, center 0.4s;
   overflow: hidden;
 }
 
