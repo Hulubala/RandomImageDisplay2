@@ -4,10 +4,10 @@
         <title>RandomImgGen</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rock+Salt"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"/>
-        <link rel="stylesheet" type="text/css" href="stylesheets.css"/>                
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"/>        
+        <link rel="stylesheet" type="text/css" href="stylesheets.css"/>              
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     </head>
     
     <body>                
@@ -52,30 +52,31 @@
                         popup.classList.remove("open-pop");
                     }
                     
-                    var audio, playBtn;
-                    function audioPlayer(){
-                        audio = new Audio();
+                    var audio, playbtn;
+                    function audioPlay(){
+                        audio = new Audio;
                         audio.src = "";
                         audio.loop = true;
                         audio.play();
-                        playBtn = document.getElementById("playMusic");
-                        playBtn.addEventListener("click", playPause);
+                        playMusic = document.getElementById("playBtn");
+                        playMusic.addEventListener("click", playPause);
                         
                         function playPause(){
                             if(audio.paused){
                                 audio.play();
-                                playMusic.classList.add("play");
+                                document.write('<button class="playBtn"><i class= "fas fa-volume-down"></i></button>');
                             }else{
                                 audio.pause();
-                                playMusic.classList.add("pause");
+                                document.write('<button class="playBtn"><i class= "fas fa-volume-mute"></i></button>');
                             }
                         }
                     }
+                    
                 </script>
                 
                 <div id="content">                                                                                                    
                     <button type="submit" class="btn" onclick="openPop()">開</button>
-                    <button id="mute"></button>
+                    <script type="text/javascript">playPause()</script>
                 </div>                                                  
                 
                 <div id="popup" class="popup">
