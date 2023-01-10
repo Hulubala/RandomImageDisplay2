@@ -36,22 +36,15 @@ function closePop() {
     popup.classList.remove("open-pop");
 }
 
-var audio, playbtn;
-function audioPlay() {
-    audio = new Audio;
-    audio.src = "";
-    audio.loop = true;
-    audio.play();
-    playMusic = document.getElementById("playBtn");
-    playMusic.addEventListener("click", playPause);
+var aud = document.getElementById("musicPlay").children[0];
+var isPlaying = false;
+aud.pause();
 
-    function playPause() {
-        if (audio.paused) {
-            audio.play();
-            document.write('<button class="playBtn"><i class= "fa fa-play-circle-o"></i></button>');
-        } else {
-            audio.pause();
-            document.write('<button class="playBtn"><i class= "fa fa-pause-circle-o"></i></button>');
-        }
+function playPause(){
+    if(isPlaying){
+    aud.pause();
+    }else{
+        aud.play();
     }
+    isPlaying = !isPlaying;
 }
