@@ -39,6 +39,7 @@ body{
 .playBtn{
   background-colour: transparent;
   border: none;
+  border-radius: 50%;
   color: black;
   padding: 10px 10px;
   position: top absolute;
