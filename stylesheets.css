@@ -39,6 +39,10 @@ body{
 playMusic{
   size: 30px;
   ratio: 1.2;
+  background:#f9f9f9;
+  foreground:#2c3e50;
+  foreground-light:#34495e;
+  transition-time: 0.3s;
   position: top absolute;
   margin-top: 5vh;
   margin-right: 0vw;
