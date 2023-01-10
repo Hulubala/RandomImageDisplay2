@@ -51,10 +51,31 @@
                     function closePop(){
                         popup.classList.remove("open-pop");
                     }
+                    
+                    var audio, playBtn;
+                    function audioPlayer(){
+                        audio = new Audio();
+                        audio.src = "";
+                        audio.loop = true;
+                        audio.play();
+                        playBtn = document.getElementById("playMusic");
+                        playBtn.addEventListener("click", playPause);
+                        
+                        function playPause(){
+                            if(audio.paused){
+                                audio.play();
+                                playMusic.classList.add("play");
+                            }else{
+                                audio.pause();
+                                playMusic.classList.add("pause");
+                            }
+                        }
+                    }
                 </script>
                 
                 <div id="content">                                                                                                    
                     <button type="submit" class="btn" onclick="openPop()">開</button>
+                    <button id="mute"></button>
                 </div>                                                  
                 
                 <div id="popup" class="popup">
