@@ -38,12 +38,18 @@ body{
 
 .playBtn{
   background-colour: transparent;
+  background-repeat: no-repeat;    
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
   border: none;
   border-radius: 50%;
   color: black;
   padding: 10px 10px;
-  position: top end absolute;
-  margin-right:0vw;
+  position: absolute;
+  right:0;
+  top: 0;
+  margin-top: 1vh;
 }
 
 .popup{
