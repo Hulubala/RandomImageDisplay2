@@ -37,25 +37,16 @@ function closePop() {
 }
 
 function playPause(btnOpt){
-    var showBtn, hideBtn;
+    var play = document.getElementById("playAud");
+    var pause = document.getElementById("pauseAud");
     var song = document.getElementById("aud");
     if(song.paused){
-        if(btnOpt == 'playAud'){
-            song.play();
-            showBtn = 'pauseAud';
-            hideBtn = 'playAud';
-        }else if(btnOpt == 'pauseAud'){
-            song.pause();
-            hideBtn = 'pauseAud';
-            showBtn = 'playAud';
-        }else{
-            song.pause();
-        }
+        song.play();
+        pause.style.display = '';
+        play.style.display = 'none';
     }else{
         song.pause();
-        hideBtn = 'pauseAud';
-        showBtn = 'playAud';
+        pause.style.display = 'none';
+        play.style.display = '';
     }
-    document.getElementByID(hideBtn).style.display = 'none';
-    document.getElementByID(showBtn).style.display = '';
 }
