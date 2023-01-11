@@ -35,19 +35,3 @@ function openPop() {
 function closePop() {
     popup.classList.remove("open-pop");
 }
-
-var aud = document.getElementById('aud');
-var buttonPlay = document.getElementById('buttonPlay');
-
-function playPause(song){
-    if(song.paused && song.currentTime >= 0 && !song.ended){
-        song.play();
-    }else{
-        song.pause();
-    }
-}
-
-buttonPlay.addEventListener('click', function(){
-    buttonPlay.classList.toggle('playing');
-    playPause(aud);
-});
