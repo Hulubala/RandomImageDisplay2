@@ -43,7 +43,7 @@ function playPause(btnOpt){
         song.play();
         showBtn = 'pauseAud';
         hideBtn = 'playAud';
-    }else if(song.play)&&(btnOpt == 'pauseAud'){
+    }else if(song.played)&&(btnOpt == 'pauseAud'){
         song.pause();
         hideBtn = 'pauseAud';
         showBtn = 'playAud';
