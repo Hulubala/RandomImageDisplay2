@@ -38,17 +38,12 @@ function closePop() {
 
 var aud = document.getElementById('aud');
 var buttonPlay = document.getElementById('buttonPlay');
-var buttonPause = document.getElementById('buttonPause');
 
 function playPause(song){
     if(song.paused && song.currentTime >= 0 && !song.ended){
         song.play();
-        buttonPlay.show();
-        buttonPause.hide();
     }else{
         song.pause();
-        buttonPlay.hide();
-        buttonPause.show();
     }
 }
 
@@ -68,7 +63,8 @@ function progress(btn, song){
         if(current == end){
             reset(btn,song);
         }
-    });
+        progress(btn,song);
+    },1000);
 }
 
 buttonPlay.addEventListener('click', function(){
