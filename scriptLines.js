@@ -36,7 +36,11 @@ function closePop() {
     popup.classList.remove("open-pop");
 }
 
-var audCtrl = document.getElementById("aud");
 function playPause(){
-    return audCtrl.paused ? audCtrl.play() : audCtrl.pause();
-};
+    var song = document.getElementById("aud");
+    if(song.paused){
+        song.play();
+    }else{
+        song.pause();
+    }
+}
