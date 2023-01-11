@@ -39,10 +39,18 @@ function closePop() {
 function playPause(btnOpt){
     var showBtn, hideBtn;
     var song = document.getElementById("aud");
-    if(song.paused)&&(btnOpt == 'playAud'){
-        song.play();
-        showBtn = 'pauseAud';
-        hideBtn = 'playAud';
+    if(song.paused){
+        if(btnOpt == 'playAud'){
+            song.play();
+            showBtn = 'pauseAud';
+            hideBtn = 'playAud';
+        }else if(btnOpt == 'pauseAud'){
+            song.pause();
+            hideBtn = 'pauseAud';
+            showBtn = 'playAud';
+        }else{
+            song.pause();
+        }
     }else{
         song.pause();
         hideBtn = 'pauseAud';
