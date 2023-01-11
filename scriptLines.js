@@ -48,4 +48,6 @@ function playPause(btnOpt){
         hideBtn = 'pauseAud';
         showBtn = 'playAud';
     }
+    document.getElementByID(hideBtn).style.display = 'none';
+    document.getElementByID(showBtn).style.display = '';
 }
