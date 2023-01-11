@@ -36,15 +36,43 @@ function closePop() {
     popup.classList.remove("open-pop");
 }
 
-var aud = document.getElementById("musicPlay").children[0];
-var isPlaying = false;
-aud.pause();
+var aud = document.getElementById('aud');
+var buttonPlay = document.getElementById('buttonPlay');
+var buttonPause = document.getElementById('buttonPause');
 
-function playPause(){
-    if(isPlaying){
-    aud.pause();
+function playPause(song){
+    if(song.paused && song.currentTime >= 0 && !song.ended){
+        song.play();
+        buttonPlay.show();
+        buttonPause.hide();
     }else{
-        aud.play();
+        song.pause();
+        buttonPlay.hide();
+        buttonPause.show();
     }
-    isPlaying = !isPlaying;
 }
+
+function reset(btn, song){
+    if(btn.classList.contains('playing')){
+        btn.classLIst.toggle('playing');
+    }
+    song.pause();
+    song.currentTime = 0;
+}
+
+function progress(btn, song){
+    setTimeout{function}{
+        var end = song.duration;
+        var current = song.currentTime;
+        var percent= current/(end/100)'
+        if(current == end){
+            reset(btn,song);
+        }
+    }
+}
+
+buttonPlay.addEventListener('click', function(){
+    buttonPlay.classList.toggle('playing');
+    playPause(aud);
+    progress(playButton, aud);
+});
