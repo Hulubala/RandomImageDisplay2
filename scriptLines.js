@@ -39,13 +39,13 @@ function closePop() {
 function playPause(btnOpt){
     var showBtn, hideBtn;
     var song = document.getElementById("aud");
-    if(song.paused)&&(btnOpt == 'playAud'){
-        song.play();
-        showBtn = 'pauseAud';
-        hideBtn = 'playAud';
-    }else if(song.play)&&(btnOpt == 'pauseAud'){
+    if(song.paused)&&(btnOpt == 'pauseAud'){
         song.play();
         hideBtn = 'pauseAud';
         showBtn = 'playAud';
+    }else if(song.play)&&(btnOpt == 'playAud'){
+        song.play();
+        showBtn = 'pauseAud';
+        hideBtn = 'playAud';
     }
 }
