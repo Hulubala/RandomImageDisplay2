@@ -36,11 +36,16 @@ function closePop() {
     popup.classList.remove("open-pop");
 }
 
-function playPause(){
+function playPause(btnOpt){
+    var showBtn, hideBtn;
     var song = document.getElementById("aud");
-    if(song.paused){
+    if(song.paused)&&(btnOpt == 'playAud'){
         song.play();
-    }else{
-        song.pause();
+        showBtn = 'pauseAud';
+        hideBtn = 'playAud';
+    }else if(song.play)&&(btnOpt == 'pauseAud'){
+        song.play();
+        hideBtn = 'pauseAud';
+        showBtn = 'playAud';
     }
 }
