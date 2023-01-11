@@ -35,3 +35,9 @@ function openPop() {
 function closePop() {
     popup.classList.remove("open-pop");
 }
+
+document.addEventListener('click', musicPlay);
+function musicPlay() {
+    document.getElementById('aud').play();
+    document.removeEventListener('click', musicPlay);
+}
