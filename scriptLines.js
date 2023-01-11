@@ -61,14 +61,14 @@ function reset(btn, song){
 }
 
 function progress(btn, song){
-    setTimeout{function}{
+    setTimeout(function(){
         var end = song.duration;
         var current = song.currentTime;
-        var percent= current/(end/100)'
+        var percent= current/(end/100);
         if(current == end){
             reset(btn,song);
         }
-    }
+    });
 }
 
 buttonPlay.addEventListener('click', function(){
