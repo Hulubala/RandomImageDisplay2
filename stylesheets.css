@@ -27,7 +27,7 @@ container{
 }
 
 body{
-  background-image: url('https://drive.google.com/thumbnail?id=1juNPkBQ0SV6aE68ZD8S9IHvPIzXvik_Z&sz=s1000');
+  background-image: url('https://drive.google.com/thumbnail?id=1juNPkBQ0SV6aE68ZD8S9IHvPIzXvik_Z&sz=s4000');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -76,7 +76,7 @@ body{
 .popup{
   width: 100vw;
   height: 100vh;
-  background-image: url('https://drive.google.com/thumbnail?id=1fsEq39MARUWSVIQ05fO4ZsfKnB2G76BH&sz=1000'); 
+  background-image: url('https://drive.google.com/thumbnail?id=1fsEq39MARUWSVIQ05fO4ZsfKnB2G76BH&sz=s4000'); 
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
