@@ -8,6 +8,7 @@ h3{
   color: #A3262A;
   font-family: "Lobster", handwriting;
   font-size: 6vw;
+  font-weight: 600;
   letter-spacing: 0.3vw;
   -webkit-text-stroke: 1px red;
   /*text-shadow:
@@ -138,7 +139,7 @@ body{
   background: #ffffb3;
   border-style: dashed;
   outline: none;
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 900;
   border-radius: 50%;
   border-width: 2px;
