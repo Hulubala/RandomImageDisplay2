@@ -9,7 +9,7 @@ h3{
   font-family: "Lobster", handwriting;
   font-size: 6vw;
   letter-spacing: 0.3vw;
-  -webkit-text-stroke: 1px black;
+  /* -webkit-text-stroke: 1px black; */
   /*text-shadow:
     -2px -2px 0 #000,
     2px -2px 0 #000,
